@@ -1,0 +1,168 @@
+[
+  {
+    "id": 0,
+    "logo": "device.png",
+    "title": "App Development",
+    "items": [
+      {
+        "icon": "react-native.png",
+        "name": "React Native"
+      },
+      {
+        "icon": "flutter.png",
+        "name": "Flutter"
+      },
+      {
+        "icon": "kotlin.png",
+        "name": "Kotlin"
+      },
+      {
+        "icon": "java.png",
+        "name": "Java"
+      },
+      {
+        "icon": "swift.png",
+        "name": "Swift"
+      },
+      {
+        "icon": "ionic.png",
+        "name": "Ionic"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "logo": "desktop.png",
+    "title": "Web Development",
+    "items": [
+      {
+        "icon": "react-native.png",
+        "name": "PHP"
+      },
+      {
+        "icon": "flutter.png",
+        "name": "WordPress"
+      },
+      {
+        "icon": "kotlin.png",
+        "name": "Cake PHP"
+      },
+      {
+        "icon": "swift.png",
+        "name": "Laravel"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "logo": "cart.png",
+    "title": "Ecommerce Development",
+    "items": [
+      {
+        "icon": "magento.png",
+        "name": "Magento"
+      },
+      {
+        "icon": "bigcommerce.png",
+        "name": "Bigcommerce"
+      },
+      {
+        "icon": "shopify.png",
+        "name": "Shopify"
+      },
+      {
+        "icon": "prestashop.png",
+        "name": "Prestashop"
+      },
+      {
+        "icon": "woocommerce.png",
+        "name": "WooCommerce"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "logo": "game.png",
+    "title": "Game Development",
+    "items": [
+      {
+        "icon": "unity.png",
+        "name": "Unity 3d"
+      },
+      {
+        "icon": "vision-reality.png",
+        "name": "Augmented Reality"
+      },
+      {
+        "icon": "flutter.png",
+        "name": "Flutter"
+      },
+      {
+        "icon": "react-native.png",
+        "name": "React Native"
+      },
+      {
+        "icon": "swift.png",
+        "name": "Swift"
+      },
+      {
+        "icon": "kotlin.png",
+        "name": "Kotlin"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "logo": "device.png",
+    "title": "App Development",
+    "items": [
+      {
+        "icon": "react-native.png",
+        "name": "React Native"
+      },
+      {
+        "icon": "flutter.png",
+        "name": "Flutter"
+      },
+      {
+        "icon": "kotlin.png",
+        "name": "Kotlin"
+      },
+      {
+        "icon": "java.png",
+        "name": "Java"
+      },
+      {
+        "icon": "swift.png",
+        "name": "Swift"
+      },
+      {
+        "icon": "ionic.png",
+        "name": "Ionic"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "logo": "desktop.png",
+    "title": "Web Development",
+    "items": [
+      {
+        "icon": "react-native.png",
+        "name": "PHP"
+      },
+      {
+        "icon": "flutter.png",
+        "name": "WordPress"
+      },
+      {
+        "icon": "kotlin.png",
+        "name": "Cake PHP"
+      },
+      {
+        "icon": "swift.png",
+        "name": "Laravel"
+      }
+    ]
+  }
+]
