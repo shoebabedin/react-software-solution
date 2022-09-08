@@ -9,8 +9,9 @@ const CaseStudyTabs = () => {
 
   useEffect(() => {
     setIsotope(
-      new Isotope(".filter-container", {
-        itemSelector: ".filter-item",
+      new Isotope(".grid", {
+        itemSelector: ".grid-item",
+        layoutMode: 'fitRows'
       })
     );
   }, []);
@@ -58,12 +59,12 @@ const CaseStudyTabs = () => {
               {/* <!-- isotop nav -->
                   <!-- isotop content --> */}
               <div className="container_gallery_iso">
-                <div className="row iso-container filter-container">
+                <div className="grid">
              
                   
 
                       {/* <!-- ----1---- --> */}
-                  <div className="col-lg-4 col-md-6 col-12 cent isotope-item filter-item item1">
+                  <div className="grid-item item1">
                     <div className="img_iso">
                       <img
                         src={require('../../Assets/images/case-study/item1.webp')}
@@ -82,7 +83,7 @@ const CaseStudyTabs = () => {
                     </div>
                   </div>
 
-                  <div className="col-lg-4 col-md-6 col-12 cent isotope-item filter-item item2">
+                  <div className="grid-item item2">
                     <div className="img_iso">
                       <img
                         src={require('../../Assets/images/case-study/item2.webp')}
@@ -101,7 +102,7 @@ const CaseStudyTabs = () => {
                     </div>
                   </div>
 
-                  <div className="col-lg-4 col-md-6 col-12 cent isotope-item filter-item item3">
+                  <div className="grid-item item3">
                     <div className="img_iso">
                       <img
                         src={require('../../Assets/images/case-study/item3.webp')}
@@ -119,7 +120,7 @@ const CaseStudyTabs = () => {
                       <Link to="/case-study-details">Read More</Link>
                     </div>
                   </div>
-                  <div className="col-lg-4 col-md-6 col-12 cent isotope-item filter-item item4">
+                  <div className="grid-item item4">
                     <div className="img_iso">
                       <img
                         src={require('../../Assets/images/case-study/item4.webp')}
@@ -139,7 +140,7 @@ const CaseStudyTabs = () => {
                   </div>
 
                   {/* <!-- -----2----- --> */}
-                  <div className="col-lg-4 col-md-6 col-12 cent isotope-item filter-item item2">
+                  <div className="grid-item item2">
                     <div className="img_iso">
                       <img
                         src={require('../../Assets/images/case-study/item5.webp')}
@@ -158,7 +159,7 @@ const CaseStudyTabs = () => {
                     </div>
                   </div>
 
-                  <div className="col-lg-4 col-md-6 col-12 cent isotope-item filter-item item3">
+                  <div className="grid-item item3">
                     <div className="img_iso">
                       <img
                         src={require('../../Assets/images/case-study/item6.webp')}
@@ -177,7 +178,7 @@ const CaseStudyTabs = () => {
                     </div>
                   </div>
 
-                  <div className="col-lg-4 col-md-6 col-12 cent isotope-item filter-item item1">
+                  <div className="grid-item item1">
                     <div className="img_iso">
                       <img
                         src={require('../../Assets/images/case-study/item7.webp')}
@@ -195,7 +196,7 @@ const CaseStudyTabs = () => {
                       <Link to="/case-study-details">Read More</Link>
                     </div>
                   </div>
-                  <div className="col-lg-4 col-md-6 col-12 cent isotope-item filter-item item4">
+                  <div className="grid-item item4">
                     <div className="img_iso">
                       <img
                         src={require('../../Assets/images/case-study/item1.webp')}
@@ -216,7 +217,7 @@ const CaseStudyTabs = () => {
 
                   {/* <!-- ----3--- --> */}
 
-                  <div className="col-lg-4 col-md-6 col-12 cent isotope-item filter-item item1">
+                  <div className="grid-item item1">
                     <div className="img_iso">
                       <img
                         src={require('../../Assets/images/case-study/item2.webp')}
@@ -235,7 +236,7 @@ const CaseStudyTabs = () => {
                     </div>
                   </div>
 
-                  <div className="col-lg-4 col-md-6 col-12 cent isotope-item filter-item item3">
+                  <div className="grid-item item3">
                     <div className="img_iso">
                       <img
                         src={require('../../Assets/images/case-study/item3.webp')}
@@ -254,7 +255,7 @@ const CaseStudyTabs = () => {
                     </div>
                   </div>
 
-                  <div className="col-lg-4 col-md-6 col-12 cent isotope-item filter-item item2">
+                  <div className="grid-item item2">
                     <div className="img_iso">
                       <img
                         src={require('../../Assets/images/case-study/item4.webp')}
@@ -272,7 +273,7 @@ const CaseStudyTabs = () => {
                       <Link to="/case-study-details">Read More</Link>
                     </div>
                   </div>
-                  <div className="col-lg-4 col-md-6 col-12 cent isotope-item filter-item item4">
+                  <div className="grid-item item4">
                     <div className="img_iso">
                       <img
                         src={require('../../Assets/images/case-study/item5.webp')}
@@ -293,7 +294,7 @@ const CaseStudyTabs = () => {
 
                   {/* <!-- ----4------ --> */}
 
-                  <div className="col-lg-4 col-md-6 col-12 cent isotope-item filter-item item3">
+                  <div className="grid-item item3">
                     <div className="img_iso">
                       <img
                         src={require('../../Assets/images/case-study/item6.webp')}
@@ -312,7 +313,7 @@ const CaseStudyTabs = () => {
                     </div>
                   </div>
 
-                  <div className="col-lg-4 col-md-6 col-12 cent isotope-item filter-item item2">
+                  <div className="grid-item item2">
                     <div className="img_iso">
                       <img
                         src={require('../../Assets/images/case-study/item7.webp')}
@@ -331,7 +332,7 @@ const CaseStudyTabs = () => {
                     </div>
                   </div>
 
-                  <div className="col-lg-4 col-md-6 col-12 cent isotope-item filter-item item1">
+                  <div className="grid-item item1">
                     <div className="img_iso">
                       <img
                         src={require('../../Assets/images/case-study/item1.webp')}
@@ -349,7 +350,7 @@ const CaseStudyTabs = () => {
                       <Link to="/case-study-details">Read More</Link>
                     </div>
                   </div>
-                  <div className="col-lg-4 col-md-6 col-12 cent isotope-item filter-item item4">
+                  <div className="grid-item item4">
                     <div className="img_iso">
                       <img
                         src={require('../../Assets/images/case-study/item2.webp')}

@@ -524,6 +524,8 @@
 /* platform expert */
 
 /* case study */
+/* case study menu */
+
 .case-studies .isotop-part .menu_iso {
   list-style-type: none;
   display: flex;
@@ -553,45 +555,61 @@
   line-height: 20px;
   color: #ffffff;
 }
-.case-studies .isotop-part .isotope-item {
-  margin-bottom: 30px;
+/* case study menu */
+.case-studies .isotop-part .grid {
+  border: 0;
 }
-.case-studies .isotop-part .isotope-item .img_iso {
-  max-height: 266px;
+
+/* clear fix */
+.case-studies .isotop-part .grid:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.case-studies .isotop-part .grid-item {
+  position: relative;
+  width: 306px;
+  height: 346px;
+  margin: 5px;
+  padding: 0;
+}
+
+.case-studies .isotop-part .grid-item .img_iso {
   overflow-y: hidden;
   border-radius: 15px;
 }
-.case-studies .isotop-part .isotope-item .img_iso img {
+.case-studies .isotop-part .grid-item .img_iso img {
   width: 100%;
-  height: 100%;
+  max-width: 100%;
+  height: auto;
   object-fit: cover;
 }
-.case-studies .isotop-part .isotope-item .content {
+.case-studies .isotop-part .grid-item .content {
   background: #ffffff;
   box-shadow: 0px 0px 20px rgba(132, 132, 132, 0.2);
   border-radius: 10px;
   max-width: max-content;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -12%;
+  margin-top: -20%;
   position: relative;
   padding: 15px 30px;
   text-align: center;
 }
-.case-studies .isotop-part .isotope-item .content p {
+.case-studies .isotop-part .grid-item .content p {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
   text-align: center;
   color: #181818;
 }
-.case-studies .isotop-part .isotope-item .content ul {
+.case-studies .isotop-part .grid-item .content ul {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 5px;
 }
-.case-studies .isotop-part .isotope-item .content ul li {
+.case-studies .isotop-part .grid-item .content ul li {
   padding: 2px 6px;
   background: rgba(215, 215, 215, 0.24);
   border-radius: 25px;
@@ -600,7 +618,7 @@
   line-height: 16px;
   color: #181818;
 }
-.case-studies .isotop-part .isotope-item .content a {
+.case-studies .isotop-part .grid-item .content a {
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
