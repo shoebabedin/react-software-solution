@@ -569,9 +569,9 @@
 .case-studies .isotop-part .grid-item {
   position: relative;
   width: 306px;
-  height: 346px;
+  height: 320px;
   margin: 5px;
-  padding: 0;
+  padding: 10px;
 }
 
 .case-studies .isotop-part .grid-item .img_iso {

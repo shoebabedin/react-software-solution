@@ -1,10 +1,13 @@
 import Isotope from "isotope-layout";
 import React, { useEffect, useState } from "react";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
+
+
 
 const CaseStudyTabs = () => {
   const [isotope, setIsotope] = useState(null);
   const [filterKey, setFilterKey] = useState("*");
+  
 
 
   useEffect(() => {
@@ -37,6 +40,7 @@ const CaseStudyTabs = () => {
 
             {/* <!-- isotop --> */}
             <div className="isotop-part">
+           
               {/* <!-- isotop nav --> */}
               <div className="menu_iso" id="custom-filter">
          
@@ -58,320 +62,317 @@ const CaseStudyTabs = () => {
               </div>
               {/* <!-- isotop nav -->
                   <!-- isotop content --> */}
-              <div className="container_gallery_iso">
+              <div className="container">
                 <div className="grid">
-             
-                  
 
-                      {/* <!-- ----1---- --> */}
-                  <div className="grid-item item1">
-                    <div className="img_iso">
-                      <img
-                        src={require('../../Assets/images/case-study/item1.webp')}
-                        alt=""
-                      />
+                    <div className="grid-item item1">
+                      <div className="img_iso">
+                        <img
+                          src={require('../../Assets/images/case-study/item1.webp')}
+                          alt=""
+                        />
+                      </div>
+                      <div className="content">
+                        <p>Car Parking app</p>
+                        <ul>
+                          <li>Android</li>
+                          <li>Flatter</li>
+                          <li>React</li>
+                          <li>IOS</li>
+                        </ul>
+                        <Link to="/case-study-details">Read More</Link>
+                      </div>
                     </div>
-                    <div className="content">
-                      <p>Car Parking app</p>
-                      <ul>
-                        <li>Android</li>
-                        <li>Flatter</li>
-                        <li>React</li>
-                        <li>IOS</li>
-                      </ul>
-                      <Link to="/case-study-details">Read More</Link>
-                    </div>
-                  </div>
 
-                  <div className="grid-item item2">
-                    <div className="img_iso">
-                      <img
-                        src={require('../../Assets/images/case-study/item2.webp')}
-                        alt=""
-                      />
+                    <div className="grid-item item2">
+                      <div className="img_iso">
+                        <img
+                          src={require('../../Assets/images/case-study/item2.webp')}
+                          alt=""
+                        />
+                      </div>
+                      <div className="content">
+                        <p>Fitness &amp; Workout app</p>
+                        <ul>
+                          <li>Android</li>
+                          <li>Flatter</li>
+                          <li>React</li>
+                          <li>IOS</li>
+                        </ul>
+                        <Link to="/case-study-details">Read More</Link>
+                      </div>
                     </div>
-                    <div className="content">
-                      <p>Fitness &amp; Workout app</p>
-                      <ul>
-                        <li>Android</li>
-                        <li>Flatter</li>
-                        <li>React</li>
-                        <li>IOS</li>
-                      </ul>
-                      <Link to="/case-study-details">Read More</Link>
-                    </div>
-                  </div>
 
-                  <div className="grid-item item3">
-                    <div className="img_iso">
-                      <img
-                        src={require('../../Assets/images/case-study/item3.webp')}
-                        alt=""
-                      />
+                    <div className="grid-item item3">
+                      <div className="img_iso">
+                        <img
+                          src={require('../../Assets/images/case-study/item3.webp')}
+                          alt=""
+                        />
+                      </div>
+                      <div className="content">
+                        <p>Hotel Booking app</p>
+                        <ul>
+                          <li>Android</li>
+                          <li>Flatter</li>
+                          <li>React</li>
+                          <li>IOS</li>
+                        </ul>
+                        <Link to="/case-study-details">Read More</Link>
+                      </div>
                     </div>
-                    <div className="content">
-                      <p>Hotel Booking app</p>
-                      <ul>
-                        <li>Android</li>
-                        <li>Flatter</li>
-                        <li>React</li>
-                        <li>IOS</li>
-                      </ul>
-                      <Link to="/case-study-details">Read More</Link>
+                    <div className="grid-item item4">
+                      <div className="img_iso">
+                        <img
+                          src={require('../../Assets/images/case-study/item4.webp')}
+                          alt=""
+                        />
+                      </div>
+                      <div className="content">
+                        <p>Car Parking app</p>
+                        <ul>
+                          <li>Android</li>
+                          <li>Flatter</li>
+                          <li>React</li>
+                          <li>IOS</li>
+                        </ul>
+                        <Link to="/case-study-details">Read More</Link>
+                      </div>
                     </div>
-                  </div>
-                  <div className="grid-item item4">
-                    <div className="img_iso">
-                      <img
-                        src={require('../../Assets/images/case-study/item4.webp')}
-                        alt=""
-                      />
-                    </div>
-                    <div className="content">
-                      <p>Car Parking app</p>
-                      <ul>
-                        <li>Android</li>
-                        <li>Flatter</li>
-                        <li>React</li>
-                        <li>IOS</li>
-                      </ul>
-                      <Link to="/case-study-details">Read More</Link>
-                    </div>
-                  </div>
 
-                  {/* <!-- -----2----- --> */}
-                  <div className="grid-item item2">
-                    <div className="img_iso">
-                      <img
-                        src={require('../../Assets/images/case-study/item5.webp')}
-                        alt=""
-                      />
+                    <div className="grid-item item2">
+                      <div className="img_iso">
+                        <img
+                          src={require('../../Assets/images/case-study/item5.webp')}
+                          alt=""
+                        />
+                      </div>
+                      <div className="content">
+                        <p>Fitness &amp; Workout app</p>
+                        <ul>
+                          <li>Android</li>
+                          <li>Flatter</li>
+                          <li>React</li>
+                          <li>IOS</li>
+                        </ul>
+                        <Link to="/case-study-details">Read More</Link>
+                      </div>
                     </div>
-                    <div className="content">
-                      <p>Fitness &amp; Workout app</p>
-                      <ul>
-                        <li>Android</li>
-                        <li>Flatter</li>
-                        <li>React</li>
-                        <li>IOS</li>
-                      </ul>
-                      <Link to="/case-study-details">Read More</Link>
-                    </div>
-                  </div>
 
-                  <div className="grid-item item3">
-                    <div className="img_iso">
-                      <img
-                        src={require('../../Assets/images/case-study/item6.webp')}
-                        alt=""
-                      />
+                    <div className="grid-item item3">
+                      <div className="img_iso">
+                        <img
+                          src={require('../../Assets/images/case-study/item6.webp')}
+                          alt=""
+                        />
+                      </div>
+                      <div className="content">
+                        <p>Hotel Booking app</p>
+                        <ul>
+                          <li>Android</li>
+                          <li>Flatter</li>
+                          <li>React</li>
+                          <li>IOS</li>
+                        </ul>
+                        <Link to="/case-study-details">Read More</Link>
+                      </div>
                     </div>
-                    <div className="content">
-                      <p>Hotel Booking app</p>
-                      <ul>
-                        <li>Android</li>
-                        <li>Flatter</li>
-                        <li>React</li>
-                        <li>IOS</li>
-                      </ul>
-                      <Link to="/case-study-details">Read More</Link>
-                    </div>
-                  </div>
 
-                  <div className="grid-item item1">
-                    <div className="img_iso">
-                      <img
-                        src={require('../../Assets/images/case-study/item7.webp')}
-                        alt=""
-                      />
+                    <div className=" grid-item item1">
+                      <div className="img_iso">
+                        <img
+                          src={require('../../Assets/images/case-study/item7.webp')}
+                          alt=""
+                        />
+                      </div>
+                      <div className="content">
+                        <p>Car Parking app</p>
+                        <ul>
+                          <li>Android</li>
+                          <li>Flatter</li>
+                          <li>React</li>
+                          <li>IOS</li>
+                        </ul>
+                        <Link to="/case-study-details">Read More</Link>
+                      </div>
                     </div>
-                    <div className="content">
-                      <p>Car Parking app</p>
-                      <ul>
-                        <li>Android</li>
-                        <li>Flatter</li>
-                        <li>React</li>
-                        <li>IOS</li>
-                      </ul>
-                      <Link to="/case-study-details">Read More</Link>
+                    <div className="grid-item item4">
+                      <div className="img_iso">
+                        <img
+                          src={require('../../Assets/images/case-study/item1.webp')}
+                          alt=""
+                        />
+                      </div>
+                      <div className="content">
+                        <p>Fitness &amp; Workout app</p>
+                        <ul>
+                          <li>Android</li>
+                          <li>Flatter</li>
+                          <li>React</li>
+                          <li>IOS</li>
+                        </ul>
+                        <Link to="/case-study-details">Read More</Link>
+                      </div>
                     </div>
-                  </div>
-                  <div className="grid-item item4">
-                    <div className="img_iso">
-                      <img
-                        src={require('../../Assets/images/case-study/item1.webp')}
-                        alt=""
-                      />
-                    </div>
-                    <div className="content">
-                      <p>Fitness &amp; Workout app</p>
-                      <ul>
-                        <li>Android</li>
-                        <li>Flatter</li>
-                        <li>React</li>
-                        <li>IOS</li>
-                      </ul>
-                      <Link to="/case-study-details">Read More</Link>
-                    </div>
-                  </div>
 
-                  {/* <!-- ----3--- --> */}
 
-                  <div className="grid-item item1">
-                    <div className="img_iso">
-                      <img
-                        src={require('../../Assets/images/case-study/item2.webp')}
-                        alt=""
-                      />
+                    <div className="grid-item item1">
+                      <div className="img_iso">
+                        <img
+                          src={require('../../Assets/images/case-study/item2.webp')}
+                          alt=""
+                        />
+                      </div>
+                      <div className="content">
+                        <p>Hotel Booking app</p>
+                        <ul>
+                          <li>Android</li>
+                          <li>Flatter</li>
+                          <li>React</li>
+                          <li>IOS</li>
+                        </ul>
+                        <Link to="/case-study-details">Read More</Link>
+                      </div>
                     </div>
-                    <div className="content">
-                      <p>Hotel Booking app</p>
-                      <ul>
-                        <li>Android</li>
-                        <li>Flatter</li>
-                        <li>React</li>
-                        <li>IOS</li>
-                      </ul>
-                      <Link to="/case-study-details">Read More</Link>
-                    </div>
-                  </div>
 
-                  <div className="grid-item item3">
-                    <div className="img_iso">
-                      <img
-                        src={require('../../Assets/images/case-study/item3.webp')}
-                        alt=""
-                      />
+                    <div className="grid-item item3">
+                      <div className="img_iso">
+                        <img
+                          src={require('../../Assets/images/case-study/item3.webp')}
+                          alt=""
+                        />
+                      </div>
+                      <div className="content">
+                        <p>Car Parking app</p>
+                        <ul>
+                          <li>Android</li>
+                          <li>Flatter</li>
+                          <li>React</li>
+                          <li>IOS</li>
+                        </ul>
+                        <Link to="/case-study-details">Read More</Link>
+                      </div>
                     </div>
-                    <div className="content">
-                      <p>Car Parking app</p>
-                      <ul>
-                        <li>Android</li>
-                        <li>Flatter</li>
-                        <li>React</li>
-                        <li>IOS</li>
-                      </ul>
-                      <Link to="/case-study-details">Read More</Link>
-                    </div>
-                  </div>
 
-                  <div className="grid-item item2">
-                    <div className="img_iso">
-                      <img
-                        src={require('../../Assets/images/case-study/item4.webp')}
-                        alt=""
-                      />
+                    <div className="grid-item item2">
+                      <div className="img_iso">
+                        <img
+                          src={require('../../Assets/images/case-study/item4.webp')}
+                          alt=""
+                        />
+                      </div>
+                      <div className="content">
+                        <p>Fitness &amp; Workout app</p>
+                        <ul>
+                          <li>Android</li>
+                          <li>Flatter</li>
+                          <li>React</li>
+                          <li>IOS</li>
+                        </ul>
+                        <Link to="/case-study-details">Read More</Link>
+                      </div>
                     </div>
-                    <div className="content">
-                      <p>Fitness &amp; Workout app</p>
-                      <ul>
-                        <li>Android</li>
-                        <li>Flatter</li>
-                        <li>React</li>
-                        <li>IOS</li>
-                      </ul>
-                      <Link to="/case-study-details">Read More</Link>
+                    <div className="grid-item item4">
+                      <div className="img_iso">
+                        <img
+                          src={require('../../Assets/images/case-study/item5.webp')}
+                          alt=""
+                        />
+                      </div>
+                      <div className="content">
+                        <p>Hotel Booking app</p>
+                        <ul>
+                          <li>Android</li>
+                          <li>Flatter</li>
+                          <li>React</li>
+                          <li>IOS</li>
+                        </ul>
+                        <Link to="/case-study-details">Read More</Link>
+                      </div>
                     </div>
-                  </div>
-                  <div className="grid-item item4">
-                    <div className="img_iso">
-                      <img
-                        src={require('../../Assets/images/case-study/item5.webp')}
-                        alt=""
-                      />
-                    </div>
-                    <div className="content">
-                      <p>Hotel Booking app</p>
-                      <ul>
-                        <li>Android</li>
-                        <li>Flatter</li>
-                        <li>React</li>
-                        <li>IOS</li>
-                      </ul>
-                      <Link to="/case-study-details">Read More</Link>
-                    </div>
-                  </div>
 
-                  {/* <!-- ----4------ --> */}
 
-                  <div className="grid-item item3">
-                    <div className="img_iso">
-                      <img
-                        src={require('../../Assets/images/case-study/item6.webp')}
-                        alt=""
-                      />
+                    <div className="grid-item item3">
+                      <div className="img_iso">
+                        <img
+                          src={require('../../Assets/images/case-study/item6.webp')}
+                          alt=""
+                        />
+                      </div>
+                      <div className="content">
+                        <p>Car Parking app</p>
+                        <ul>
+                          <li>Android</li>
+                          <li>Flatter</li>
+                          <li>React</li>
+                          <li>IOS</li>
+                        </ul>
+                        <Link to="/case-study-details">Read More</Link>
+                      </div>
                     </div>
-                    <div className="content">
-                      <p>Car Parking app</p>
-                      <ul>
-                        <li>Android</li>
-                        <li>Flatter</li>
-                        <li>React</li>
-                        <li>IOS</li>
-                      </ul>
-                      <Link to="/case-study-details">Read More</Link>
-                    </div>
-                  </div>
 
-                  <div className="grid-item item2">
-                    <div className="img_iso">
-                      <img
-                        src={require('../../Assets/images/case-study/item7.webp')}
-                        alt=""
-                      />
+                    <div className="grid-item item2">
+                      <div className="img_iso">
+                        <img
+                          src={require('../../Assets/images/case-study/item7.webp')}
+                          alt=""
+                        />
+                      </div>
+                      <div className="content">
+                        <p>Fitness &amp; Workout app</p>
+                        <ul>
+                          <li>Android</li>
+                          <li>Flatter</li>
+                          <li>React</li>
+                          <li>IOS</li>
+                        </ul>
+                        <Link to="/case-study-details">Read More</Link>
+                      </div>
                     </div>
-                    <div className="content">
-                      <p>Fitness &amp; Workout app</p>
-                      <ul>
-                        <li>Android</li>
-                        <li>Flatter</li>
-                        <li>React</li>
-                        <li>IOS</li>
-                      </ul>
-                      <Link to="/case-study-details">Read More</Link>
-                    </div>
-                  </div>
 
-                  <div className="grid-item item1">
-                    <div className="img_iso">
-                      <img
-                        src={require('../../Assets/images/case-study/item1.webp')}
-                        alt=""
-                      />
+                    <div className="grid-item item1">
+                      <div className="img_iso">
+                        <img
+                          src={require('../../Assets/images/case-study/item1.webp')}
+                          alt=""
+                        />
+                      </div>
+                      <div className="content">
+                        <p>Hotel Booking app</p>
+                        <ul>
+                          <li>Android</li>
+                          <li>Flatter</li>
+                          <li>React</li>
+                          <li>IOS</li>
+                        </ul>
+                        <Link to="/case-study-details">Read More</Link>
+                      </div>
                     </div>
-                    <div className="content">
-                      <p>Hotel Booking app</p>
-                      <ul>
-                        <li>Android</li>
-                        <li>Flatter</li>
-                        <li>React</li>
-                        <li>IOS</li>
-                      </ul>
-                      <Link to="/case-study-details">Read More</Link>
+                    <div className="grid-item item4">
+                      <div className="img_iso">
+                        <img
+                          src={require('../../Assets/images/case-study/item2.webp')}
+                          alt=""
+                        />
+                      </div>
+                      <div className="content">
+                        <p>Car Parking app</p>
+                        <ul>
+                          <li>Android</li>
+                          <li>Flatter</li>
+                          <li>React</li>
+                          <li>IOS</li>
+                        </ul>
+                        <Link to="/case-study-details">Read More</Link>
+                      </div>
                     </div>
-                  </div>
-                  <div className="grid-item item4">
-                    <div className="img_iso">
-                      <img
-                        src={require('../../Assets/images/case-study/item2.webp')}
-                        alt=""
-                      />
-                    </div>
-                    <div className="content">
-                      <p>Car Parking app</p>
-                      <ul>
-                        <li>Android</li>
-                        <li>Flatter</li>
-                        <li>React</li>
-                        <li>IOS</li>
-                      </ul>
-                      <Link to="/case-study-details">Read More</Link>
-                    </div>
-                  </div>
                 </div>
               </div>
-              {/* <!-- isotop content --> */}
+
             </div>
+
+
+
           </div>
         </div>
       </div>
