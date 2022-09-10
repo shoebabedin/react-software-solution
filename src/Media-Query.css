@@ -251,4 +251,8 @@
     -ms-border-radius: 0px;
     -o-border-radius: 0px;
   }
+  .case-studies .isotop-part .grid-item {
+    width: 100%;
+    height: 320px;
+  }
 }
