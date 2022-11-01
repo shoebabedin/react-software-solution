@@ -1,166 +1,166 @@
 [
   {
     "id": 0,
-    "logo": "device.png",
+    "logo": "device",
     "title": "App Development",
     "items": [
       {
-        "icon": "react-native.png",
+        "icon": "react-native",
         "name": "React Native"
       },
       {
-        "icon": "flutter.png",
+        "icon": "flutter",
         "name": "Flutter"
       },
       {
-        "icon": "kotlin.png",
+        "icon": "kotlin",
         "name": "Kotlin"
       },
       {
-        "icon": "java.png",
+        "icon": "java",
         "name": "Java"
       },
       {
-        "icon": "swift.png",
+        "icon": "swift",
         "name": "Swift"
       },
       {
-        "icon": "ionic.png",
+        "icon": "ionic",
         "name": "Ionic"
       }
     ]
   },
   {
     "id": 1,
-    "logo": "desktop.png",
+    "logo": "desktop",
     "title": "Web Development",
     "items": [
       {
-        "icon": "react-native.png",
+        "icon": "react-native",
         "name": "PHP"
       },
       {
-        "icon": "flutter.png",
+        "icon": "flutter",
         "name": "WordPress"
       },
       {
-        "icon": "kotlin.png",
+        "icon": "kotlin",
         "name": "Cake PHP"
       },
       {
-        "icon": "swift.png",
+        "icon": "swift",
         "name": "Laravel"
       }
     ]
   },
   {
     "id": 2,
-    "logo": "cart.png",
+    "logo": "cart",
     "title": "Ecommerce Development",
     "items": [
       {
-        "icon": "magento.png",
+        "icon": "magento",
         "name": "Magento"
       },
       {
-        "icon": "bigcommerce.png",
+        "icon": "bigcommerce",
         "name": "Bigcommerce"
       },
       {
-        "icon": "shopify.png",
+        "icon": "shopify",
         "name": "Shopify"
       },
       {
-        "icon": "prestashop.png",
+        "icon": "prestashop",
         "name": "Prestashop"
       },
       {
-        "icon": "woocommerce.png",
+        "icon": "woocommerce",
         "name": "WooCommerce"
       }
     ]
   },
   {
     "id": 3,
-    "logo": "game.png",
+    "logo": "game",
     "title": "Game Development",
     "items": [
       {
-        "icon": "unity.png",
+        "icon": "unity",
         "name": "Unity 3d"
       },
       {
-        "icon": "vision-reality.png",
+        "icon": "vision-reality",
         "name": "Augmented Reality"
       },
       {
-        "icon": "flutter.png",
+        "icon": "flutter",
         "name": "Flutter"
       },
       {
-        "icon": "react-native.png",
+        "icon": "react-native",
         "name": "React Native"
       },
       {
-        "icon": "swift.png",
+        "icon": "swift",
         "name": "Swift"
       },
       {
-        "icon": "kotlin.png",
+        "icon": "kotlin",
         "name": "Kotlin"
       }
     ]
   },
   {
     "id": 4,
-    "logo": "device.png",
+    "logo": "device",
     "title": "App Development",
     "items": [
       {
-        "icon": "react-native.png",
+        "icon": "react-native",
         "name": "React Native"
       },
       {
-        "icon": "flutter.png",
+        "icon": "flutter",
         "name": "Flutter"
       },
       {
-        "icon": "kotlin.png",
+        "icon": "kotlin",
         "name": "Kotlin"
       },
       {
-        "icon": "java.png",
+        "icon": "java",
         "name": "Java"
       },
       {
-        "icon": "swift.png",
+        "icon": "swift",
         "name": "Swift"
       },
       {
-        "icon": "ionic.png",
+        "icon": "ionic",
         "name": "Ionic"
       }
     ]
   },
   {
     "id": 5,
-    "logo": "desktop.png",
+    "logo": "desktop",
     "title": "Web Development",
     "items": [
       {
-        "icon": "react-native.png",
+        "icon": "react-native",
         "name": "PHP"
       },
       {
-        "icon": "flutter.png",
+        "icon": "flutter",
         "name": "WordPress"
       },
       {
-        "icon": "kotlin.png",
+        "icon": "kotlin",
         "name": "Cake PHP"
       },
       {
-        "icon": "swift.png",
+        "icon": "swift",
         "name": "Laravel"
       }
     ]

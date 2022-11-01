@@ -24,51 +24,51 @@ const CountDown = ({ className, ...rest }) => {
                       <path
                         d="M47.25 10.5H8.75C7.7835 10.5 7 11.2835 7 12.25V38.5C7 39.4665 7.7835 40.25 8.75 40.25H47.25C48.2165 40.25 49 39.4665 49 38.5V12.25C49 11.2835 48.2165 10.5 47.25 10.5Z"
                         stroke="white"
-                        stroke-width="3"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="3"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                       <path
                         d="M35 40.25L42 49"
                         stroke="white"
-                        stroke-width="3"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="3"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                       <path
                         d="M21 40.25L14 49"
                         stroke="white"
-                        stroke-width="3"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="3"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                       <path
                         d="M20.125 26.25V31.5"
                         stroke="white"
-                        stroke-width="3"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="3"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                       <path
                         d="M28 22.75V31.5"
                         stroke="white"
-                        stroke-width="3"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="3"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                       <path
                         d="M35.875 19.25V31.5"
                         stroke="white"
-                        stroke-width="3"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="3"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                       <path
                         d="M28 10.5V5.25"
                         stroke="white"
-                        stroke-width="3"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="3"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                     </svg>
                   </div>
@@ -96,8 +96,8 @@ const CountDown = ({ className, ...rest }) => {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
+                        fillRule="evenodd"
+                        clipRule="evenodd"
                         d="M43.5841 4.14497C42.5915 3.82193 41.5274 3.78806 40.5162 4.04732C39.505 4.30658 38.5885 4.84826 37.8737 5.60906C37.1589 6.36986 36.6754 7.31836 36.4797 8.34375C36.3244 9.15748 35.5388 9.69123 34.725 9.53589C33.9113 9.38056 33.3776 8.59498 33.5329 7.78125C33.8354 6.19657 34.5826 4.73069 35.6873 3.55491C36.7919 2.37912 38.2084 1.54199 39.7711 1.14132C41.3339 0.740644 42.9784 0.792984 44.5125 1.29222C46.0466 1.79146 47.4069 2.71697 48.4346 3.96062C49.4622 5.20427 50.1147 6.71469 50.3158 8.3154C50.517 9.91611 50.2584 11.541 49.5703 13.0002C49.0375 14.1302 48.2641 15.1247 47.3094 15.9168C47.6849 16.0669 48.0546 16.2328 48.4178 16.4144C50.4498 17.4304 52.2163 18.9072 53.5764 20.727C54.0724 21.3906 53.9365 22.3306 53.2729 22.8265C52.6094 23.3225 51.6694 23.1866 51.1734 22.523C50.0932 21.0776 48.6901 19.9047 47.0761 19.0977C45.4621 18.2907 43.6819 17.872 41.8774 17.875C41.049 17.8764 40.3763 17.206 40.3749 16.3775C40.3738 15.6665 40.8675 15.0702 41.5312 14.9146C41.6421 14.8886 41.7577 14.8749 41.8766 14.875C42.9205 14.8761 43.9431 14.58 44.825 14.0215C45.7069 13.4629 46.4116 12.6649 46.8568 11.7207C47.3021 10.7765 47.4694 9.72513 47.3392 8.68938C47.2091 7.65362 46.7869 6.67629 46.122 5.87158C45.457 5.06686 44.5768 4.468 43.5841 4.14497ZM13.4836 4.04732C12.4724 3.78806 11.4083 3.82193 10.4157 4.14497C9.42303 4.468 8.54281 5.06686 7.87786 5.87158C7.21291 6.67629 6.7907 7.65362 6.66057 8.68938C6.53044 9.72513 6.69776 10.7765 7.14298 11.7207C7.58819 12.6649 8.29292 13.4629 9.17482 14.0215C10.0567 14.58 11.0794 14.8761 12.1233 14.875C12.1725 14.8749 12.2212 14.8773 12.2693 14.8819C13.0311 14.9546 13.6263 15.5969 13.625 16.3775C13.6236 17.206 12.9509 17.8764 12.1225 17.875C10.318 17.872 8.53783 18.2907 6.92385 19.0977C5.30988 19.9047 3.9068 21.0776 2.82653 22.523C2.33059 23.1866 1.39061 23.3225 0.727038 22.8265C0.0634657 22.3306 -0.0724217 21.3906 0.423525 20.727C1.78363 18.9072 3.55015 17.4304 5.58221 16.4144C5.94529 16.2328 6.31505 16.0669 6.69047 15.9168C5.7357 15.1247 4.96234 14.1302 4.42951 13.0002C3.74145 11.541 3.48286 9.91611 3.68397 8.3154C3.88509 6.71469 4.53759 5.20427 5.56523 3.96062C6.59288 2.71697 7.95323 1.79146 9.48734 1.29222C11.0214 0.792984 12.6659 0.740644 14.2287 1.14132C15.7914 1.54199 17.2079 2.37912 18.3125 3.55491C19.4172 4.73069 20.1644 6.19656 20.4669 7.78125C20.6223 8.59498 20.0885 9.38056 19.2748 9.53589C18.461 9.69123 17.6755 9.15748 17.5201 8.34375C17.3244 7.31837 16.8409 6.36986 16.1261 5.60906C15.4113 4.84826 14.4948 4.30658 13.4836 4.04732ZM27 14.375C22.996 14.375 19.75 17.6209 19.75 21.625C19.75 25.6291 22.996 28.875 27 28.875C31.0041 28.875 34.25 25.6291 34.25 21.625C34.25 17.6209 31.0041 14.375 27 14.375ZM16.75 21.625C16.75 15.9641 21.3391 11.375 27 11.375C32.6609 11.375 37.25 15.9641 37.25 21.625C37.25 25.1041 35.5167 28.1783 32.8665 30.0313C33.6813 30.3639 34.4696 30.7665 35.2222 31.2366C37.6882 32.7767 39.672 34.9785 40.9477 37.5911C41.3112 38.3355 41.0024 39.2337 40.258 39.5972C39.5136 39.9607 38.6154 39.6519 38.2519 38.9075C37.2228 36.7998 35.6224 35.0236 33.633 33.7811C31.6437 32.5386 29.3453 31.8799 26.9998 31.8799C24.6544 31.8799 22.356 32.5386 20.3667 33.7811C18.3773 35.0236 16.7769 36.7998 15.7477 38.9075C15.3842 39.6519 14.4861 39.9607 13.7417 39.5972C12.9973 39.2337 12.6885 38.3355 13.0519 37.5911C14.3277 34.9785 16.3115 32.7767 18.7775 31.2366C19.5302 30.7665 20.3186 30.3638 21.1334 30.0312C18.4833 28.1782 16.75 25.104 16.75 21.625Z"
                         fill="white"
                       />
@@ -129,58 +129,58 @@ const CountDown = ({ className, ...rest }) => {
                       <path
                         d="M3.5 47.25H52.5"
                         stroke="white"
-                        stroke-width="3"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="3"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                       <path
                         d="M31.5 47.25V8.75C31.5 8.28587 31.3156 7.84075 30.9874 7.51256C30.6592 7.18437 30.2141 7 29.75 7H8.75C8.28587 7 7.84075 7.18437 7.51256 7.51256C7.18437 7.84075 7 8.28587 7 8.75V47.25"
                         stroke="white"
-                        stroke-width="3"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="3"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                       <path
                         d="M49 47.25V22.75C49 22.2859 48.8156 21.8408 48.4874 21.5126C48.1592 21.1844 47.7141 21 47.25 21H31.5"
                         stroke="white"
-                        stroke-width="3"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="3"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                       <path
                         d="M14.875 15.75H21"
                         stroke="white"
-                        stroke-width="3"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="3"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                       <path
                         d="M17.5 29.75H23.625"
                         stroke="white"
-                        stroke-width="3"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="3"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                       <path
                         d="M14.875 38.5H21"
                         stroke="white"
-                        stroke-width="3"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="3"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                       <path
                         d="M39.375 38.5H41.125"
                         stroke="white"
-                        stroke-width="3"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="3"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                       <path
                         d="M39.375 29.75H41.125"
                         stroke="white"
-                        stroke-width="3"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="3"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                     </svg>
                   </div>

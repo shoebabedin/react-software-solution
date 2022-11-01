@@ -58,7 +58,6 @@ const Navbar = () => {
             <ul className="navbar-nav mx-auto mb-2 mb-lg-0 d-flex gap-4 mob">
               <li className="nav-item">
                 <NavLink
-                  activeClassName="is-active"
                   className="nav-link"
                   aria-current="page"
                   to="/"
@@ -68,7 +67,6 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <NavLink
-                  activeClassName="is-active"
                   className="nav-link"
                   to="about"
                 >
@@ -98,14 +96,13 @@ const Navbar = () => {
                     ></path>
                   </svg>
                 </Link>
-                <ul className="dropdown-menu" ariaLabelledby="navbarDropdown">
+                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <div className="arrow"></div>
 
                   <li>
                     <NavLink
-                      activeClassName="is-active"
                       className="dropdown-item"
-                      to="/app-development"
+                      to="app-development"
                     >
                       <span>
                         <svg
@@ -126,9 +123,8 @@ const Navbar = () => {
                   </li>
                   <li>
                     <NavLink
-                      activeClassName="is-active"
                       className="dropdown-item"
-                      to="/web-development"
+                      to="web-development"
                     >
                       <span>
                         <svg
@@ -149,9 +145,8 @@ const Navbar = () => {
                   </li>
                   <li>
                     <NavLink
-                      activeClassName="is-active"
                       className="dropdown-item"
-                      to="/ecommerce-development"
+                      to="ecommerce-development"
                     >
                       <span>
                         <svg
@@ -172,9 +167,8 @@ const Navbar = () => {
                   </li>
                   <li>
                     <NavLink
-                      activeClassName="is-active"
                       className="dropdown-item"
-                      to="/game-development"
+                      to="game-development"
                     >
                       <span>
                         <svg
@@ -218,11 +212,10 @@ const Navbar = () => {
                     ></path>
                   </svg>
                 </Link>
-                <ul className="dropdown-menu" ariaLabelledby="navbarDropdown">
+                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <div className="arrow"></div>
                   <li>
                     <NavLink
-                      activeClassName="is-active"
                       className="dropdown-item"
                       to="/app-developer"
                     >
@@ -245,9 +238,8 @@ const Navbar = () => {
                   </li>
                   <li>
                     <NavLink
-                      activeClassName="is-active"
                       className="dropdown-item"
-                      to="/"
+                      to="/web-developer"
                     >
                       <span>
                         <svg
@@ -268,9 +260,8 @@ const Navbar = () => {
                   </li>
                   <li>
                     <NavLink
-                      activeClassName="is-active"
                       className="dropdown-item"
-                      to="/"
+                      to="/uiux-developer"
                     >
                       <span>
                         <svg
@@ -281,8 +272,8 @@ const Navbar = () => {
                           xmlns="http://www.w3.org/2000/svg"
                         >
                           <path
-                            fill-rule="evenodd"
-                            clip-rule="evenodd"
+                            fillRule="evenodd"
+                            clipRule="evenodd"
                             d="M11.25 4.5C11.25 4.08579 11.5858 3.75 12 3.75C12.4142 3.75 12.75 4.08579 12.75 4.5C12.75 4.91421 12.4142 5.25 12 5.25C11.5858 5.25 11.25 4.91421 11.25 4.5ZM8.56203 3H1.5C0.671573 3 0 3.67157 0 4.5C0 5.32843 0.671573 6 1.5 6H4.96292C4.90719 6.05802 4.85213 6.11678 4.79775 6.17626C3.81622 7.25 3.09034 8.52601 2.66782 9.90851C1.12434 10.3729 0 11.8052 0 13.5C0 15.5711 1.67893 17.25 3.75 17.25C5.82107 17.25 7.5 15.5711 7.5 13.5C7.5 12.1455 6.78192 10.9588 5.70569 10.2997C6.00705 9.52891 6.44875 8.81655 7.01202 8.20036C7.57252 7.58721 8.23864 7.08541 8.97502 6.71673C9.65749 7.64646 10.7583 8.25 12 8.25C13.2416 8.25 14.3424 7.64655 15.0248 6.71693C15.7611 7.08558 16.4271 7.58731 16.9875 8.20036C17.5508 8.81662 17.9925 9.52907 18.2939 10.3C17.2179 10.9591 16.5 12.1457 16.5 13.5C16.5 15.5711 18.1789 17.25 20.25 17.25C22.3211 17.25 24 15.5711 24 13.5C24 11.805 22.8754 10.3726 21.3316 9.90834C20.9091 8.5259 20.1832 7.24996 19.2017 6.17626C19.1474 6.11678 19.0923 6.05802 19.0366 6H22.5C23.3284 6 24 5.32843 24 4.5C24 3.67157 23.3284 3 22.5 3H15.438C14.8593 1.67557 13.5377 0.75 12 0.75C10.4623 0.75 9.1407 1.67557 8.56203 3ZM3.75 12.75C3.33579 12.75 3 13.0858 3 13.5C3 13.9142 3.33579 14.25 3.75 14.25C4.16421 14.25 4.5 13.9142 4.5 13.5C4.5 13.0858 4.16421 12.75 3.75 12.75ZM19.5 13.5C19.5 13.0858 19.8358 12.75 20.25 12.75C20.6642 12.75 21 13.0858 21 13.5C21 13.9142 20.6642 14.25 20.25 14.25C19.8358 14.25 19.5 13.9142 19.5 13.5Z"
                             fill="#7C7B7B"
                           />
@@ -293,9 +284,8 @@ const Navbar = () => {
                   </li>
                   <li>
                     <NavLink
-                      activeClassName="is-active"
                       className="dropdown-item"
-                      to="/"
+                      to="/game-developer"
                     >
                       <span>
                         <svg
@@ -316,32 +306,8 @@ const Navbar = () => {
                   </li>
                   <li>
                     <NavLink
-                      activeClassName="is-active"
                       className="dropdown-item"
-                      to="/"
-                    >
-                      <span>
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="24"
-                          height="24"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            fill="#7C7B7B"
-                            d="M23.203 17.035h-.009l-1.528-7.922c0-.01 0-.01-.01-.018a5.625 5.625 0 00-5.53-4.622l-8.25.028a5.616 5.616 0 00-5.541 4.65v.019L.807 17.026a3.366 3.366 0 002.737 3.91c.192.037.386.056.581.055a3.413 3.413 0 002.391-.984l.037-.047 3.816-4.219 3.272-.018 3.806 4.246.047.047c.632.63 1.489.985 2.381.985.199 0 .396-.02.591-.056a3.384 3.384 0 002.737-3.91zM9.75 10.875H9v.75a.75.75 0 11-1.5 0v-.75h-.75a.75.75 0 110-1.5h.75v-.75a.75.75 0 011.5 0v.75h.75a.75.75 0 010 1.5zm3.75-.75a.75.75 0 01.75-.75h3a.75.75 0 010 1.5h-3a.75.75 0 01-.75-.75zm6.703 9.348a1.883 1.883 0 01-1.64-.507l-2.916-3.234h.478a5.624 5.624 0 004.782-2.653l.815 4.237a1.875 1.875 0 01-1.519 2.157z"
-                          ></path>
-                        </svg>
-                      </span>
-                      Game Developer
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      activeClassName="is-active"
-                      className="dropdown-item"
-                      to="/"
+                      to="/full-stack-developer"
                     >
                       <span>
                         <svg
@@ -352,8 +318,8 @@ const Navbar = () => {
                           xmlns="http://www.w3.org/2000/svg"
                         >
                           <path
-                            fill-rule="evenodd"
-                            clip-rule="evenodd"
+                            fillRule="evenodd"
+                            clipRule="evenodd"
                             d="M16.4101 4.26302C16.6932 3.48447 16.2916 2.62383 15.513 2.34072C14.7345 2.05761 13.8738 2.45924 13.5907 3.23779L7.59072 19.7378C7.30761 20.5163 7.70924 21.377 8.48779 21.6601C9.26634 21.9432 10.127 21.5416 10.4101 20.763L16.4101 4.26302ZM7.15233 7.28976C7.68268 7.92618 7.59669 8.87202 6.96028 9.40237L3.84307 12L6.96028 14.5977C7.59669 15.1281 7.68268 16.0739 7.15233 16.7103C6.62199 17.3467 5.67614 17.4327 5.03972 16.9024L0.539723 13.1524C0.197734 12.8674 0 12.4452 0 12C0 11.5549 0.197734 11.1327 0.539723 10.8477L5.03972 7.09771C5.67614 6.56736 6.62199 6.65335 7.15233 7.28976ZM16.8477 7.28976C17.3781 6.65335 18.3239 6.56736 18.9603 7.09771L23.4603 10.8477C23.8023 11.1327 24 11.5549 24 12C24 12.4452 23.8023 12.8674 23.4603 13.1524L18.9603 16.9024C18.3239 17.4327 17.3781 17.3467 16.8477 16.7103C16.3174 16.0739 16.4033 15.1281 17.0398 14.5977L20.157 12L17.0398 9.40237C16.4033 8.87202 16.3174 7.92618 16.8477 7.28976Z"
                             fill="#7C7B7B"
                           />
@@ -362,36 +328,10 @@ const Navbar = () => {
                       Full Stack Developer
                     </NavLink>
                   </li>
-                  <li>
-                    <NavLink
-                      activeClassName="is-active"
-                      className="dropdown-item"
-                      to="/"
-                    >
-                      <span>
-                        <svg
-                          width="24"
-                          height="18"
-                          viewBox="0 0 24 18"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            fill-rule="evenodd"
-                            clip-rule="evenodd"
-                            d="M11.25 4.5C11.25 4.08579 11.5858 3.75 12 3.75C12.4142 3.75 12.75 4.08579 12.75 4.5C12.75 4.91421 12.4142 5.25 12 5.25C11.5858 5.25 11.25 4.91421 11.25 4.5ZM8.56203 3H1.5C0.671573 3 0 3.67157 0 4.5C0 5.32843 0.671573 6 1.5 6H4.96292C4.90719 6.05802 4.85213 6.11678 4.79775 6.17626C3.81622 7.25 3.09034 8.52601 2.66782 9.90851C1.12434 10.3729 0 11.8052 0 13.5C0 15.5711 1.67893 17.25 3.75 17.25C5.82107 17.25 7.5 15.5711 7.5 13.5C7.5 12.1455 6.78192 10.9588 5.70569 10.2997C6.00705 9.52891 6.44875 8.81655 7.01202 8.20036C7.57252 7.58721 8.23864 7.08541 8.97502 6.71673C9.65749 7.64646 10.7583 8.25 12 8.25C13.2416 8.25 14.3424 7.64655 15.0248 6.71693C15.7611 7.08558 16.4271 7.58731 16.9875 8.20036C17.5508 8.81662 17.9925 9.52907 18.2939 10.3C17.2179 10.9591 16.5 12.1457 16.5 13.5C16.5 15.5711 18.1789 17.25 20.25 17.25C22.3211 17.25 24 15.5711 24 13.5C24 11.805 22.8754 10.3726 21.3316 9.90834C20.9091 8.5259 20.1832 7.24996 19.2017 6.17626C19.1474 6.11678 19.0923 6.05802 19.0366 6H22.5C23.3284 6 24 5.32843 24 4.5C24 3.67157 23.3284 3 22.5 3H15.438C14.8593 1.67557 13.5377 0.75 12 0.75C10.4623 0.75 9.1407 1.67557 8.56203 3ZM3.75 12.75C3.33579 12.75 3 13.0858 3 13.5C3 13.9142 3.33579 14.25 3.75 14.25C4.16421 14.25 4.5 13.9142 4.5 13.5C4.5 13.0858 4.16421 12.75 3.75 12.75ZM19.5 13.5C19.5 13.0858 19.8358 12.75 20.25 12.75C20.6642 12.75 21 13.0858 21 13.5C21 13.9142 20.6642 14.25 20.25 14.25C19.8358 14.25 19.5 13.9142 19.5 13.5Z"
-                            fill="#7C7B7B"
-                          />
-                        </svg>
-                      </span>
-                      UI/UX Designer
-                    </NavLink>
-                  </li>
                 </ul>
               </li>
               <li className="nav-item">
                 <NavLink
-                  activeClassName="is-active"
                   to="case-study"
                   className="nav-link"
                 >
@@ -400,7 +340,6 @@ const Navbar = () => {
               </li>
               <li className="nav-item d-lg-none">
                 <NavLink
-                  activeClassName="is-active"
                   to="contact-us"
                   className="nav-link"
                 >

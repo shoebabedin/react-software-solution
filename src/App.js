@@ -14,8 +14,12 @@ import Layout from "./Components/Common/Layout/Layout";
 import NoMatch from "./Components/Common/NoMatch/NoMatch";
 import ContactUs from './Components/ContactUs/ContactUs';
 import EcommerceDevelopment from './Components/EcommerceDevelopment/EcommerceDevelopment';
+import FullStackDeveloper from './Components/FullStackDeveloper/FullStackDeveloper';
+import GameDeveloper from './Components/GameDeveloeper/GameDeveloper';
 import GameDevelopment from './Components/GameDevelopment/GameDevelopment';
 import Home from "./Components/Home/Home";
+import UIUXDesigner from './Components/UIUXDeveloper/UIUXDeveloper';
+import WebDeveloper from './Components/WebDeveloper/WebDeveloper';
 import WebDevelopment from './Components/WebDevelopment/WebDevelopment';
 import './Media-Query.css';
 
@@ -34,6 +38,10 @@ function App() {
           <Route path="/ecommerce-development" element={<EcommerceDevelopment />} />
           <Route path="/game-development" element={<GameDevelopment />} />
           <Route path="/app-developer" element={<AppDeveloper />} />
+          <Route path="/web-developer" element={<WebDeveloper />} />
+          <Route path="/game-developer" element={<GameDeveloper />} />
+          <Route path="/uiux-developer" element={<UIUXDesigner />} />
+          <Route path="/full-stack-developer" element={<FullStackDeveloper />} />
         </Route>
         <Route path="*" element={<NoMatch />} />
       </Routes>

@@ -6,31 +6,31 @@ import TechnologyTabs from "../TechnologyTab/TechnologyTabs";
 const serviceProvide = [
   {
     id: 0,
-    img: 'item3.webp',
+    img: 'item3',
     heading: 'Mobile',
     desc: 'GAME DEVELOPMENT'
   },
   {
     id: 1,
-    img: 'item1.webp',
+    img: 'item1',
     heading: 'Unity3D',
     desc: 'GAME DEVELOPMENT'
   },
   {
     id: 2,
-    img: 'item2.webp',
+    img: 'item2',
     heading: 'Web',
     desc: 'GAME DEVELOPMENT'
   },
   {
     id: 3,
-    img: 'item4.webp',
+    img: 'item4',
     heading: '2D/3D',
     desc: 'GAME DEVELOPMENT'
   },
   {
     id: 4,
-    img: 'item5.webp',
+    img: 'item5',
     heading: 'HTML5',
     desc: 'GAME DEVELOPMENT'
   },
@@ -59,7 +59,7 @@ const ServiceLayout = () => {
                   <div className="service-provide-item">
                     <img
                       className="img-fluid"
-                      src={require(`../../../Assets/images/service-provide/${item.img}`)}
+                      src={require(`../../../Assets/images/service-provide/${item.img}.webp`)}
                       alt=""
                     />
                     <div className="overlay">

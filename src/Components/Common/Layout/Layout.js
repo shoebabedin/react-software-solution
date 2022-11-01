@@ -6,31 +6,35 @@ import Preloader from "../Preloader/Preloader";
 import ToTop from "../ToTop/ToTop";
 
 const Layout = () => {
-    const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(true);
 
-    useEffect(() => {
-        const fetchData = async () => {
-          // We pretend to be fetching data from a server and it takes 3 seconds
-          await new Promise((resolve) => setTimeout(resolve, 3000));
-          // When the data "fetching" process is complete, we will set the title and content
-          
-          setLoading(false);
-        };
-     
-        fetchData();
-      }, []);
-      
-    return (
-        <main id="main">
-            {loading &&  <Preloader/>}
-            <Navbar />
+
+
+  useEffect(() => {
+      const fetchData = async () => {
+        await new Promise((resolve) => setTimeout(resolve, 1500));
+
+        setLoading(false);
+      };
+
+      fetchData();
+    }, []);
+
+
+
+
+  return (
+    <main id="main">
+      {loading && <Preloader />}
+         <Navbar />
             <section id="page_content" className="content">
             <Outlet />
             </section>
             <Footer/>
             <ToTop/>
-        </main>
-    );
+      
+    </main>
+  );
 };
 
 export default Layout;

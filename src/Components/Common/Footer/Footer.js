@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import footerLogo from './../../../Assets/images/logo/footer-logo.png';
 
 const Footer = () => {
   return (
@@ -9,7 +10,7 @@ const Footer = () => {
         <div className="row py-4 py-lg-5 border-bottom text-center text-lg-start">
           <div className="col-12 col-lg-6">
             <div className="logo mb-3">
-              <img src="./assets/images/logo/footer-logo.png" alt="" />
+              <img src={footerLogo} alt="" />
             </div>
             <p className="text body-text">
               We ara a lorem ipsum dolor sit amet, consectetur adipiscing elit,

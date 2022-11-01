@@ -63,7 +63,7 @@ const ServiceProvide = () => {
                   <div className="d-flex gap-3 py-4">
                     <div className="icon">
                       <img
-                        src={require(`../../Assets/images/serviceSlider/${item.logo}`)}
+                        src={require(`../../Assets/images/serviceSlider/${item.logo}.webp`)}
                         alt={item.title}
                       />
                     </div>
@@ -76,7 +76,7 @@ const ServiceProvide = () => {
                           item.items.map((child, i) => 
                             <li key={i} className="text-start text-secondary body-text mb-3 d-flex logo_list">
                               <span className="logo">
-                               <img src={require(`../../Assets/images/serviceSlider/${child.icon}`)} alt="" />
+                               <img src={require(`../../Assets/images/serviceSlider/${child.icon}.webp`)} alt="" />
                               </span>
                               {child.name}
                             </li>
@@ -95,8 +95,8 @@ const ServiceProvide = () => {
                             xmlns="http://www.w3.org/2000/svg"
                           >
                             <path
-                              fill-rule="evenodd"
-                              clip-rule="evenodd"
+                              fillRule="evenodd"
+                              clipRule="evenodd"
                               d="M14.5024 10.3756C14.1575 10.8069 14.2276 11.4362 14.659 11.7811C15.0903 12.126 15.7196 12.0559 16.0645 11.6245L19.5628 7.24896C20.1466 6.5187 20.1466 5.48138 19.5628 4.75112L16.0645 0.375577C15.7196 -0.0557883 15.0903 -0.1259 14.659 0.21898C14.2276 0.56386 14.1575 1.19313 14.5024 1.6245L17.2012 5.00004L0.999268 5.00004C0.446981 5.00004 -0.000732422 5.44775 -0.000732422 6.00004C-0.000732422 6.55232 0.446981 7.00004 0.999268 7.00004L17.2012 7.00004L14.5024 10.3756Z"
                               fill="#1A64EE"
                             />

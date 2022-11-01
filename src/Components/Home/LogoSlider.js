@@ -49,7 +49,7 @@ const LogoSlider = () => {
               {ImgSlider.map((item, index) => (
                 <div key={index} className="slider_item">
                   <img
-                    src={require(`../../Assets/images/logo-slider/${item.img}`)}
+                    src={require(`../../Assets/images/logo-slider/${item.img}.webp`)}
                     alt=""
                   />
                 </div>
